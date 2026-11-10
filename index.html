@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>चित्रगुप्त पूजा शुभकामनाएं</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-family: "Noto Sans Devanagari", Arial, sans-serif;
+
+            /* Background Image */
+            background-image: url("images/background.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Dark + Golden Overlay */
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+
+            background: radial-gradient(
+                circle at center,
+                rgba(255, 180, 0, 0.2),
+                rgba(30, 0, 50, 0.88)
+            );
+
+            z-index: 0;
+        }
+
+        /* Main Card */
+        .container {
+            position: relative;
+            z-index: 1;
+
+            width: 90%;
+            max-width: 650px;
+
+            padding: 35px 30px;
+
+            text-align: center;
+
+            border-radius: 30px;
+
+            background: rgba(30, 0, 45, 0.75);
+
+            border: 2px solid #ffd700;
+
+            box-shadow:
+                0 0 20px #ffd700,
+                0 0 50px rgba(255, 165, 0, 0.5);
+
+            backdrop-filter: blur(8px);
+
+            color: white;
+        }
+
+        /* Bhagwan Image */
+        .image-box {
+            width: 220px;
+            height: 220px;
+
+            margin: 0 auto 20px;
+
+            border-radius: 50%;
+
+            padding: 6px;
+
+            background: linear-gradient(
+                45deg,
+                #ffd700,
+                #ff8c00,
+                #fff3a0,
+                #ffd700
+            );
+
+            box-shadow:
+                0 0 20px #ffd700,
+                0 0 45px rgba(255, 165, 0, 0.8);
+
+            animation: imageGlow 2s infinite alternate;
+        }
+
+        .image-box img {
+            width: 100%;
+            height: 100%;
+
+            object-fit: cover;
+
+            border-radius: 50%;
+
+            border: 4px solid #3b0754;
+        }
+
+        /* Diya */
+        .diya {
+            font-size: 55px;
+
+            animation: diyaGlow 1.5s infinite alternate;
+        }
+
+        /* Main Heading */
+        h1 {
+            margin-top: 10px;
+
+            font-size: 34px;
+
+            color: #ffd700;
+
+            text-shadow:
+                0 0 10px #ff8c00,
+                0 0 20px #ffd700;
+        }
+
+        h2 {
+            margin-top: 15px;
+
+            font-size: 23px;
+
+            color: #fff1a8;
+        }
+
+        h3 {
+            margin-top: 20px;
+
+            font-size: 27px;
+
+            color: #ffd700;
+
+            text-shadow: 0 0 15px #ff9800;
+        }
+
+        /* Golden Line */
+        .line {
+            width: 70%;
+            height: 2px;
+
+            margin: 20px auto;
+
+            background: linear-gradient(
+                90deg,
+                transparent,
+                #ffd700,
+                transparent
+            );
+        }
+
+        /* Paragraph */
+        p {
+            font-size: 19px;
+
+            line-height: 1.8;
+
+            color: #fff;
+        }
+
+        /* Decorative Stars */
+        .stars {
+            margin-top: 25px;
+
+            font-size: 25px;
+
+            animation: sparkle 2s infinite;
+        }
+
+        .flower {
+            margin-top: 25px;
+
+            font-size: 25px;
+        }
+
+        /* Diya Animation */
+        @keyframes diyaGlow {
+            from {
+                transform: scale(1);
+                text-shadow: 0 0 10px orange;
+            }
+
+            to {
+                transform: scale(1.15);
+                text-shadow:
+                    0 0 20px orange,
+                    0 0 40px gold;
+            }
+        }
+
+        /* Image Animation */
+        @keyframes imageGlow {
+            from {
+                box-shadow: 0 0 15px gold;
+            }
+
+            to {
+                box-shadow:
+                    0 0 25px gold,
+                    0 0 50px orange;
+            }
+        }
+
+        /* Sparkle Animation */
+        @keyframes sparkle {
+            0%, 100% {
+                opacity: 0.7;
+                transform: scale(1);
+            }
+
+            50% {
+                opacity: 1;
+                transform: scale(1.08);
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 600px) {
+
+            .container {
+                padding: 25px 18px;
+            }
+
+            .image-box {
+                width: 170px;
+                height: 170px;
+            }
+
+            h1 {
+                font-size: 27px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+            h3 {
+                font-size: 23px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- भगवान चित्रगुप्त की Image -->
+        <div class="image-box">
+            <img src="Bhagwan.jpg" alt="भगवान चित्रगुप्त">
+        </div>
+
+        <!-- Diya -->
+        <div class="diya">🪔</div>
+
+        <h1>ॐ श्री चित्रगुप्ताय नमः</h1>
+
+        <h2>
+            🙏आप सभी को कायस्थ परिवार की तरफ से चित्रगुप्त पूजा की हार्दिक शुभकामनाएं 🙏
+        </h2>
+
+        <div class="line"></div>
+
+        <p>
+            भगवान चित्रगुप्त जी की कृपा से<br>
+            आपके जीवन में सुख, शांति, समृद्धि<br>
+            और सफलता सदैव बनी रहे।
+        </p>
+
+        <div class="stars">
+            ✨ 🪔 ✨ 🪔 ✨
+        </div>
+
+        <h3>
+            शुभ चित्रगुप्त पूजा
+        </h3>
+
+        <p>
+            आप सभी को चित्रगुप्त पूजा की<br>
+            हार्दिक शुभकामनाएं।
+        </p>
+
+        <div class="flower">
+          Created by Sahil Asthana<br>
+            🌸 🌼 🌸
+        </div>
+
+    </div>
+
+</body>
+</html>
